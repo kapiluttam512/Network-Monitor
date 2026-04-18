@@ -1,25 +1,49 @@
-# 🚀 Network Monitoring Tool (Python)
+# Network Monitoring Tool (Python)
 
-A simple Python-based network monitoring tool that checks server availability using ICMP ping and provides real-time alerts when systems go down.
-
----
-
-## 📌 Features
-
-- ✅ Monitor multiple hosts (Google, GitHub, etc.)
-- 📡 Real-time status check (UP / DOWN)
-- 🚨 Alert system when a server goes DOWN
-- 📝 Logging system to track history
-- 🔁 Automatic monitoring every 10 seconds
+A Python-based network monitoring tool that checks server availability and provides real-time alerts.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- Monitor multiple servers
+- Real-time UP/DOWN status
+- Alert system when the server goes down
+- Logging system for tracking
+
+---
+
+## Tech Stack
 
 - Python
 - Networking (ICMP Ping)
-- OS Module
 
 ---
 
-## 📂 Project Structure
+## How to Run
+
+1. Add hosts in hosts.txt
+2. Run:
+   python monitor.py
+
+---
+
+## Example Output
+
+google.com : UP  
+github.com : UP  
+8.8.8.8 : DOWN  
+
+ALERT: Server is DOWN!
+
+---
+
+## Use Case
+
+Simulates a real NOC monitoring system used in IT operations.
+
+---
+
+## Author
+
+Kapil Uttam
